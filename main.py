@@ -4,3 +4,4 @@ result = []
 for v in per_cent.values():
     result.append(int(money * v / 100))
 print('deposit = ', result)
+print('Максимальная сумма, которую вы можете заработать: ', max(result))
